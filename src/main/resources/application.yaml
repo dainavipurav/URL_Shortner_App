@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: urlShortner
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+
+app:
+  shortUrlKey: ${SHORT_URL_KEY}
+  baseUrl: ${BASE_URL}

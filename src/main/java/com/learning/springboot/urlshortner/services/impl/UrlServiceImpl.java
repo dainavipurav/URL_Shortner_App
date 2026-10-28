@@ -49,6 +49,4 @@ public class UrlServiceImpl implements UrlService {
 
         return urlEntity.getLongUrl();
     }
-
-
 }
